@@ -1,0 +1,14 @@
+/*
+    Author: Keller Tree
+    Date: 10/24/2023
+*/
+
+h1 {color: rgb(16, 16, 216);}
+h2 {color: rgb(163, 15, 15);}
+body { 
+    background-color: aliceblue;
+    text-align: center;
+}
+p {text-align: left;}
+* {font-family: sans-serif;}
+img.border-okay {box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);}

@@ -1,0 +1,32 @@
+/*
+    Keller Tree
+    11/14/2023
+*/
+
+/* Menu Item Names */
+dl dt {
+    font-weight: bold;
+    color: #8B705F;
+}
+/* Menu Descriptions */
+dl dd { margin-bottom: 10px; }
+/* Prices */
+.price {
+    font-family: serif;
+    font-weight: normal;
+}
+/* Breakfast Note Styles */
+section:nth-child(1) p em {
+    color: #8B705F;
+    font-family: serif;
+    font-weight: normal;
+}
+/* SECTION ELEMENT STYLES */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+}
+h3 { color: black;} /* Added to match project 2 image appropriately */
+

@@ -1,0 +1,53 @@
+/*
+    Keller Tree
+    11/14/2023
+*/
+
+/* FORM STYLES */
+form {
+    background-color: #D6CBC0;
+    border-radius: 10px;
+    padding: 20px;
+}
+/* INPUT STYLES */
+input, select, textarea {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    display: block;
+    border-radius: 5px;
+}
+input[type="radio"], input[type="checkbox"] { display: inline-block; }
+/* TEXTAREA STYLES */
+textarea {
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #A87B50;
+}
+/* FIELDSET AND LEGENDS STYLES */
+fieldset {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+}
+legend { font-weight: bold; }
+/* BUTTON STYLES */
+input[type="submit"], input[type="reset"] {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #A87B50;
+    color: white;
+}
+/* Centering Buttons */
+form input[type="submit"],
+form input[type="reset"] {
+    display: block;
+    margin: 0 auto;
+}
+

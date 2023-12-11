@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--
+    Author: Keller Tree
+    Date: 12/2/2023
+-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cherokee Marsh Friends - Join Us</title>
+  <link rel="stylesheet" href="styleSheets/main.css">
+  <link rel="stylesheet" href="styleSheets/join.css">
+</head>
+
+<body>
+  <header>
+    <h1>Become a Friend</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="history.html">History</a>
+      <a href="join.html">Friends</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="organization-purpose">
+      <h2>Join Cherokee Marsh Friends</h2>
+      <p>Become a Friend of Cherokee Marsh by filling out the form below. Your support is crucial for preserving the natural beauty of our marsh.</p>
+    </section>
+
+    <section id="join-form">
+      <h2>Supporter Form</h2>
+      <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+        <label for="membership-type">Membership Type:</label>
+        <select id="membership-type" name="membership-type">
+          <option value="individual">Individual</option>
+          <option value="family">Family</option>
+          <option value="student">Student</option>
+        </select>
+
+        <label>Interests:</label>
+        <div class="checkbox-group">
+          <label for="nature">
+            <input type="checkbox" id="nature" name="interest_nature" value="nature"> Nature
+          </label>
+        
+          <label for="community">
+            <input type="checkbox" id="community" name="interest_community" value="community"> Community
+          </label>
+        
+          <label for="education">
+            <input type="checkbox" id="education" name="interest_education" value="education"> Education
+          </label>
+        </div>
+
+        <label>Preferred Communication:</label>
+        <div class="radio-group">
+          <label>
+            <input type="radio" id="email-radio" name="communication" value="email"> Email
+          </label>
+
+          <label>
+            <input type="radio" id="phone-radio" name="communication" value="phone"> Phone
+          </label>
+        </div>
+
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments"></textarea>
+
+        <input type="submit" value="Join Now">
+      </form>
+    </section>
+
+    <section id="previous-supporters">
+      <h2>Top Supporters</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Years Supporting</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Jingle</td>
+            <td>john@wecare.com</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Sally Sands</td>
+            <td>sallys@wecare.com</td>
+            <td>4</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Cherokee Marsh Friends. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>

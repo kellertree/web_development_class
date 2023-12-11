@@ -1,0 +1,21 @@
+/*
+    Keller Tree
+    12/2/2023
+*/
+
+
+#organization-purpose { margin: 20px; }
+#organization-purpose p { font-size: 1.1rem; }
+#image-section {
+    text-align: center;
+    margin: 20px;
+  }
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+.image-caption {
+  font-style: italic;
+  font-size: 12px;
+  text-align: center; 
+}

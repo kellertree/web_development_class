@@ -1,0 +1,77 @@
+/*
+    Keller Tree
+    12/2/2023
+*/
+/* Styles for join.html */
+#join-form {
+  margin: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#organization-purpose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#join-form h2 { color: #070606; }
+#join-form p { font-size: 1.1em; }
+#join-form label {
+  display: block;
+  margin-top: 10px;
+  color: #020202;
+}
+#join-form input,
+#join-form select,
+#join-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+#join-form div.checkbox-group,
+#join-form div.radio-group {
+  display: flex;
+  margin-bottom: 10px;
+}
+#join-form div.checkbox-group label,
+#join-form div.radio-group label {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+#join-form div.checkbox-group input[type="checkbox"],
+#join-form div.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+#join-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+#join-form input[type="submit"] {
+  background-color: #4c4d42;
+  color: #fff;
+  cursor: pointer;
+  flex: 1;
+  margin-right: 5px;
+}
+#join-form input[type="submit"]:hover {
+  background-color: #6d6e37;
+}
+#previous-supporters {
+  margin-top: 30px;
+  text-align: center;
+}
+#previous-supporters table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+#previous-supporters th, #previous-supporters td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#previous-supporters th {
+  background-color: #0d5c21;
+  color: #fff;
+}

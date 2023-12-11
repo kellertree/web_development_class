@@ -1,0 +1,52 @@
+/*
+    Keller Tree
+    12/2/2023
+*/
+
+#organization-purpose {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#organization-purpose h2 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+#organization-purpose p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#hours-of-operation {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#contact-form { margin: 20px; }
+#contact-form h2 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+#contact-form p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#contact-form label {
+    display: block;
+    margin-top: 10px;
+    color: #000000;
+}
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+#contact-form input[type="submit"] {
+    background-color: #47724b;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 5px;
+}
+#contact-form input[type="submit"]:hover {
+    background-color: #2b5c29;
+}

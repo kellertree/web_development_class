@@ -1,0 +1,28 @@
+/*
+    Keller Tree
+    12/2/2023
+*/
+
+#history-content { margin: 20px; }
+#history-content h2 { color: #000000; }
+#history-content p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+/* Match the styling of responsive images */
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+.float-none {
+    float: none;
+    margin: 0 0 10px 10px; 
+}
+.image-container { 
+    clear: both;
+    text-align: center;
+}
+.image-caption {
+    font-style: italic;
+    text-align: center; 
+}
